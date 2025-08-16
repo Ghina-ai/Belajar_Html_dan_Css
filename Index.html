@@ -13,13 +13,27 @@
         <h1>Foto 1</h1>
         <img src="kucing.jpg" alt="Gambar kucing">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum odio, minus ducimus esse molestias est eum cum repellat iste unde debitis ex qui veniam in autem ab molestiae minima quo.</p>
+        <button id="kucing">Click Me</button>
     </div>
 
      <div class="card">
         <h1>Foto 1</h1>
-        <img src="kucing.jpg" alt="Gambar kucing">
+        <img id="Gambar" src="capibara.jpg" alt="Gambar capibara">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum odio, minus ducimus esse molestias est eum cum repellat iste unde debitis ex qui veniam in autem ab molestiae minima quo.</p>
+        <button id="capibara">Click Me</button>
     </div>
 </div>
+
+<script>
+   let tombol = document.getElementById("kucing");
+   tombol.addEventListener("click", function() {
+    alert("Ini Kucing");
+   });
+
+   let tombol1 = document.getElementById("capibara");
+   tombol1.addEventListener("click", function() {
+    alert("Ini capibara");
+   });
+</script>
 </body>
 </html>
